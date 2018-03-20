@@ -78,6 +78,10 @@ label {
   position: relative;
 }
 
+.search span, .location p {
+  font-weight: bold;
+}
+
 .search__icon {
   width: 20px;
   height: 20px;
@@ -88,6 +92,7 @@ label {
 .recent__title {
   border-top: 1px solid white;
   padding-top: 15px;
+  font-weight: bolder;
 }
 
 .recent__title, .recent__type {
@@ -152,6 +157,7 @@ label {
 .type.active {
   border-bottom: 1px solid white;
   padding-bottom: 5px;
+  font-weight: bold;
 }
 
 .albums {
