@@ -1,3 +1,7 @@
+:root {
+  --opacity: 0;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -8,7 +12,7 @@ body {
 
 .reference {
   position: absolute;
-  opacity: 0.0;
+  opacity: var(--opacity);
   top: 0;
   right: 0;
   bottom: 0;
@@ -25,6 +29,27 @@ body {
   display: grid;
   grid-template-columns: 218px 1fr;
   grid-template-rows: 1fr 90px;
+}
+
+label {
+  color: white;
+  font-weight: bold;
+  z-index: 20;
+  display: block;
+}
+
+.opacity-controls {
+  position: absolute;
+  z-index: 20;
+  left: 300px;
+  top: 50px;
+  background: black;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.opacity {
+  width: 200px;
 }
 
 /* ========= SIDEBAR ========= */

@@ -5,10 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="styles.css">
-  <title>Document</title>
+  <title>Spotify Layout</title>
 </head>
 <body>
   <img src="images/spotify.png" alt="spotify reference image" class="reference">
+  <div class="opacity-controls">
+    <label for="opacity">Reference</label>
+    <input class="opacity" type="range" name="opacity" min="0" max="1" value="0" step="0.01">
+  </div>
   <div class="grid">
     <aside class="sidebar">
       <div class="logo">
@@ -132,5 +136,6 @@
       </div>
     </footer>
   </div>
+  <script src="index.js"></script>
 </body>
 </html>
